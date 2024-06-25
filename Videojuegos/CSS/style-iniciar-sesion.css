@@ -1,0 +1,148 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Platypi", serif;
+}
+
+/* Body */
+body {
+    background-color: #000000;
+}
+
+/* NavBar */
+.menu-horizontal {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    height: 4.5rem;
+    width: 100%;
+}
+
+/* Items del Menú */
+.item-bar-menu {
+    color: #fff;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+/* Menú-menú */
+.item-bar-menu>a>img {
+    height: 1.8rem;
+    padding-left: 4rem;
+}
+
+.item-bar-menu {
+    padding-top: 1rem;
+}
+
+.item-menu {
+    list-style: none;
+}
+
+.item-menu>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item-menu>a:hover {
+    color: rgb(73, 73, 73);
+}
+
+/* Items derecha Navbar*/
+.menu-derecha>a {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding-top: .3rem;
+    display: flex;
+    text-decoration: none;
+}
+
+.menu-derecha>a>h2 {
+    padding: 1rem;
+}
+
+/* Imagen Logo Menú*/
+.imagen-logo {
+    height: 4rem;
+    padding-right: 1rem;
+}
+
+
+/* Menú vertical */
+.menu-vertical {
+    display: none;
+    width: 13rem;
+    background-color: #000000;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.menu-horizontal>li:hover .menu-vertical {
+    display: block;
+}
+
+/* Contenedor */
+.contenedor{
+    border: 3px solid #fff;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    margin-bottom: 5rem;
+}
+
+/* Título */
+.titulo {
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 2rem;
+    font-size: 2rem;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+/* Formulario */
+.iniciar {
+    display: flex;
+    justify-content: center;
+}
+
+.form-iniciar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 5px;
+    align-items: center;
+}
+
+.form-iniciar>input {
+    margin: 10px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.btn-form {
+    font-size: 1rem;
+    background-color: #000000;
+    color: #fff;
+}
+
+/* Opción registrarse */
+.registrarse {
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
