@@ -82,7 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 13rem;
     background: linear-gradient(transparent, #000 30%);
     padding: 1rem;
@@ -150,6 +150,10 @@ body {
 .tarjeta-uno {
     margin: 1rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 20rem;
     border: 3px solid #fff;
     padding: 1rem;
@@ -236,7 +240,7 @@ footer {
     border-radius: 5px;
 }
 
-footer>div {
+.footer-derecha {
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -263,8 +267,11 @@ footer>div>img {
 }
 
 .form-input {
+    border: none;
+    outline: none;
     margin: .8rem;
     width: 20rem;
+    padding: .5rem;
 }
 
 .form-submit {
@@ -386,7 +393,7 @@ footer>div>img {
         padding: .5rem;
     }
 
-    footer>div {
+    .footer-derecha {
         width: 20rem;
     }
 
@@ -472,72 +479,185 @@ footer>div>img {
     }
 
     /* Tarjetas */
-    .tarjetas{
+    .tarjetas {
         justify-content: center;
     }
 
     /* Tajerta Uno */
-    .tarjeta-uno{
+    .tarjeta-uno {
         width: 20rem;
     }
+
     .tarjeta-uno>img {
         width: 80%;
     }
 
     /* Tarjetas dobles */
     .tarjetas-uno,
-    .tarjetas-dos{
+    .tarjetas-dos {
         width: 35rem;
         justify-content: space-between;
         padding: .4rem;
     }
 
     .tarjetas-uno>div>h3,
-    .tarjetas-dos>div>h3{
+    .tarjetas-dos>div>h3 {
         font-size: 1.3rem;
     }
+
     .tarjetas-uno>div>p,
-    .tarjetas-dos>div>p{
+    .tarjetas-dos>div>p {
         font-size: 1rem;
     }
 
     /* Quienes Somos */
-    .quienes-somos{
+    .quienes-somos {
         justify-content: space-around;
     }
 
-    .quienes-somos>img{
+    .quienes-somos>img {
         width: 25rem;
         height: 15rem;
     }
 
-    .quienes-somos>div{
+    .quienes-somos>div {
         width: 40rem;
     }
 
-    .quienes-somos>div>h3{
+    .quienes-somos>div>h3 {
         font-size: 2rem;
     }
-    .quienes-somos>div>p{
+
+    .quienes-somos>div>p {
         font-size: 1.4rem;
     }
 
     /* Footer */
-    footer{
+    footer {
         justify-content: space-around;
     }
 
-    .formulario{
+    .formulario {
         width: 35rem;
     }
 
-    .formulario>h4{
+    .formulario>h4 {
         font-size: 1.9rem;
     }
 
-    .form-input{
+    .form-input {
         width: 25rem;
     }
+
+}
+
+@media screen and (min-width: 1910px) {
+
+    /* Navbar */
+
+    .menu-horizontal{
+        height: 6rem;
+    }
+
+    .menu-vertical{
+        height: 12rem;
+    }
+
+    .img-navbar-izquierda {
+        height: 2.5rem
+    }
+
+    .menu-derecha>a>h2 {
+        font-size: 2rem;
+    }
+
+    .menu-derecha>a>img {
+        height: 4rem;
+    }
+
+    /* Index Text */
+    .index-text>h1 {
+        font-size: 4rem;
+    }
+
+    .index-text>p {
+        font-size: 2rem;
+    }
+
+    /* Tarjetas */
+    .tarjeta-uno {
+        width: 30rem;
+    }
+
+    .tarjeta-uno>img {
+        width: 90%;
+        height: 12rem;
+    }
+
+    .tarjeta-uno>p{
+        width: 80%;
+    }
+
+    /* Tarjetas dobles */
+    .tarjetas-uno, 
+    .tarjetas-dos {
+        height: 12rem;
+        width: 40rem;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    /* Quienes Somos */
+    .quienes-somos>img {
+        width: 35rem;
+        height: 20rem;
+    }
+
+    .quienes-somos>div {
+        width: 60rem;
+    }
+
+    .quienes-somos>div>h3 {
+        font-size: 3.5rem;
+    }
+
+    .quienes-somos>div>p {
+        font-size: 2rem;
+    }
+
+    /* Footer Izquierda */
+
+    /* Formulario */
+    .formulario {
+        width: 45rem;
+    }
+
+    .formulario>h4 {
+        font-size: 2.3rem;
+    }
+
+    .form-input {
+        width: 35rem;
+        height: 3rem;
+    }
+
+    /* Footer Derecha */
+    
+    .footer-derecha{
+        width: 50rem;
+    }
+
+    .footer-derecha>img {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .footer-derecha>span{
+        font-size: 2rem;
+    }
+
+
+
 
 }
 
