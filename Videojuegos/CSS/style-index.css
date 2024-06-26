@@ -555,11 +555,11 @@ footer>div>img {
 
     /* Navbar */
 
-    .menu-horizontal{
+    .menu-horizontal {
         height: 6rem;
     }
 
-    .menu-vertical{
+    .menu-vertical {
         height: 12rem;
     }
 
@@ -594,12 +594,12 @@ footer>div>img {
         height: 12rem;
     }
 
-    .tarjeta-uno>p{
+    .tarjeta-uno>p {
         width: 80%;
     }
 
     /* Tarjetas dobles */
-    .tarjetas-uno, 
+    .tarjetas-uno,
     .tarjetas-dos {
         height: 12rem;
         width: 40rem;
@@ -642,8 +642,8 @@ footer>div>img {
     }
 
     /* Footer Derecha */
-    
-    .footer-derecha{
+
+    .footer-derecha {
         width: 50rem;
     }
 
@@ -652,7 +652,7 @@ footer>div>img {
         height: 9rem;
     }
 
-    .footer-derecha>span{
+    .footer-derecha>span {
         font-size: 2rem;
     }
 
