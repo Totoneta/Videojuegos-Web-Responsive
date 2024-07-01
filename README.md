@@ -19,7 +19,7 @@ Iniciar Sesion
 
 # Video Games Practices In JavaScript
 
-SPANISH:
+English:
 Projects developed Responsive.
 
 IMG
